@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">  
+  <title>Dictionary</title>
+</head>
+<body>
+  <header>
+    <div class="logo"></div>
+    <h1>Dictionary</h1>
+    <div class="language">
+      <p class="eng">
+          Eng
+      </p>
+  </div>
+  </header>
+  <main class="main">
+    <div class="contols-wrapper">
+      <input class="element-style" id="word-seach" type="search" name="text" required placeholder="Enter word"
+        autocomplete="off" autofocus>
+    </div>
+    <div id="card-word">
+      <div class="card-word">
+        <div>
+          <img src='assets/files/05_0081.jpg' class="img-word">
+        </div>
+        <div>
+          <div class="word-translate">
+            <h2>active</h2>
+            <div class="transcription">[ǽktiv]</div>
+            <div class="translate">активный</div>
+            <audio src='assets/files/05_0081.mp3' controls></audio>
+          </div>
+          <div class="word-example">
+            <div>It is important to be <b>active</b> and not sit around all the time.</div>
+            <div>Важно быть активным, а не сидеть без дела все время.</div>
+            <audio src='assets/files/05_0081_example.mp3' controls></audio>
+          </div>
+          <div class="word-example">
+          <div>When someone is <b>active</b>, they move a lot or have a lot of things to do.</div>
+          <div>Когда кто-то активен, он много двигается или у него много дел</div>
+          <audio src='assets/files/05_0081_meaning.mp3' controls></audio>
+        </div>
+        </div>
+      </div>
+    </div>
+    <div class="words" id="words"></div>
+  </main>
+  <footer class="footer">
+    <div class="logo footer-logo"></div>
+    <div class="footer-text">2022</div>
+  </footer>
+  <script type="module" src="index.js">  
+  </script>
+</body>
+</html>
